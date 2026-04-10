@@ -5,6 +5,8 @@ import Doctors from "@/components/Doctors";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
 
+export const revalidate = 0; // Force always fetch fresh data from Supabase
+
 export default function Home() {
   return (
     <>
